@@ -17,4 +17,5 @@ public class AmazonResultSteps {
 	public void item_list_should_have_products_of(String brand) throws Throwable {
 		AmazonResultActionsObj.verifyBrandItems(brand);
 	}
+	
 }

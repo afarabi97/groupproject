@@ -13,5 +13,13 @@ public class AmazonHomePageLocators {
 	@FindBy (xpath="//input[@type='submit']")
 	public WebElement btnSubmit;
 	
+	@FindBy(xpath="//a[@id='nav-hamburger-menu']")
+	public WebElement clkbr;
+	@FindBy(xpath="//a[@data-ref-tag=\"nav_em_1_1_1_17\"]/div[1]")
+	public WebElement clkbk;
+	
+	@FindBy(xpath="(//a[contains(text(), 'Audible Books')])[1]")
+	public WebElement clkaudb;
+	
 	
 }
