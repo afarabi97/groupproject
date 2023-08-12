@@ -18,7 +18,7 @@ public class AmazonHomePageLocators {
 	@FindBy(xpath="//a[@data-ref-tag=\"nav_em_1_1_1_17\"]/div[1]")
 	public WebElement clkbk;
 	
-	@FindBy(xpath="(//a[contains(text(), 'Audible Books')])[1]")
+	@FindBy(xpath="(//a[contains(text(), 'Audible Books')])[2]")
 	public WebElement clkaudb;
 	
 	

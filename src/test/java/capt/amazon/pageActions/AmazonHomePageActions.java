@@ -1,6 +1,5 @@
 package capt.amazon.pageActions;
 
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 
 import capt.amazon.pageElements.AmazonHomePageLocators;
@@ -27,16 +26,14 @@ public class AmazonHomePageActions {
 	}
 	public void ClickBook() throws Exception{
 		
-		Actions actions = new Actions(SetupDrivers.driver);
-		actions.moveToElement(AmazonHomePageLocatorsObj.clkbk).click().build().perform();
+		AmazonHomePageLocatorsObj.clkbk.click();
 	}
 		
 		
 	
 	public void ClickAudible() throws Exception{
 		Thread.sleep(3000);
-		Actions actions = new Actions(SetupDrivers.driver);
-		actions.moveToElement(AmazonHomePageLocatorsObj.clkaudb).click().build().perform();
+		AmazonHomePageLocatorsObj.clkaudb.click();
         Thread.sleep(3000);
 	}
 }
